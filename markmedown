@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Copyright 2023 Marcus Müller
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 from textual.app import App, ComposeResult
 from textual.reactive import reactive
 from textual.binding import Binding
