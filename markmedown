@@ -28,12 +28,7 @@ class Markmedown(App):
                     mdv = MarkdownViewer(markdown=file.read(), show_table_of_contents=self.show_toc)
                     self.mdvs += [mdv]
                     yield mdv
-        self.update()
-        yield Header()
         yield Footer()
-
-    def update(self) -> None:
-        self.title = f"{self.idx} {self.files[self.idx].name}"
 
 
 if __name__ == "__main__":
