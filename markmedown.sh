@@ -8,4 +8,4 @@ venvdir="$HOME/.local/share/markmedown/venv"
   cp markmedown "$venvdir/bin"
   chmod 755 "$venvdir/bin/markmedown"
 )
-. "$venvdir/bin/activate" && "$venvdir/bin/markmedown"
+. "$venvdir/bin/activate" && "$venvdir/bin/markmedown" $@
