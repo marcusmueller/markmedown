@@ -50,7 +50,7 @@ Show files and show the structure of each document in a sidebar:
 markmedown.sh -t file1.md file2.md 
 ```
 
-![Screencast of markmedown in use](???.gif)
+![Screencast of markmedown in use](https://raw.githubusercontent.com/marcusmueller/markmedown/main/doc_assets/markmedown.gif)
 
 ### Navigation
 
